@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Kurierzy",
-  "description": "Tworzy linki do trackingów firm kurierskich",
+  "name": "Tracking links Generator",
+  "description": "PL: Małe rozszerzenie do generowania linków do śledzenia paczek. Proste i szybkie w użyciu. Wystarczą 3 kliknięcia by z numeru przesyłki uzyskać link do jej śledzenia.| EN:Mini extension for generating tracking links. Easy to use. Three clicks to generate a tracking link directly from your browser bar.",
   "version": "1.0",
   "browser_action": {
     "default_popup": "popup.html",
