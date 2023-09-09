@@ -14,13 +14,13 @@ body {
     flex-direction: column;
     align-items: center;
     width: 520px;
-    padding-bottom: 20px;
+    padding: 0 40px 20px 40px;
     background-color: rgb(38, 40, 54);
     font-family: "Montserrat", sans-serif;
 }
 
 input {
-    width: 450px;
+    width: 100%;
     height: 40px;
     margin: 10px;
     padding-left: 10px;
@@ -35,7 +35,7 @@ input {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 450px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -96,8 +96,9 @@ button:active {
 }
 
 .info {
-    width: 450px;
+    width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     text-align: center;
@@ -106,6 +107,43 @@ button:active {
 
 .info p:first-child {
     margin-bottom: 10px;
+}
+
+.guide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(38, 40, 54);
+    border-radius:13px;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.guide__btn{
+    font-weight: bold;
+}
+.guide:hover>.guide__text{
+    display: block;
+}
+.guide__text{
+    position: fixed;
+    display: none;
+    width: 390px;
+    margin: 0 0px 150px 65px;
+    padding: 10px 20px;
+    left: 0;
+    background-color: rgb(38, 40, 54);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    line-height: 2;
+    
 }
 
 .hide {
